@@ -10,7 +10,7 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
  * This function generates random positive or negative number
  */
 // eslint-disable-next-line no-unused-vars
-function generateNumber() {
+function generateNumber () {
   // input
   const optionPositive = document.getElementById('option-positive').checked
 
