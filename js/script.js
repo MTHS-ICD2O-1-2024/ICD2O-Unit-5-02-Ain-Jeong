@@ -12,18 +12,18 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
 // eslint-disable-next-line no-unused-vars
 function generateNumber() {
   // input
-  const optionPositive = document.getElementById("option-positive").checked
+  const optionPositive = document.getElementById('option-positive').checked
 
   // process
-  if (optionPositive == true) {
+  if (optionPositive === true) {
     // output
-    document.getElementById("answer").innerHTML =
-      "Your random number is: " + randomNumber
+    document.getElementById('answer').innerHTML =
+      'Your random number is: ' + randomNumber
   } else {
     // process
-    randomNegativeNumber = randomNumber * -1
+    const randomNegativeNumber = randomNumber * -1
     // output
-    document.getElementById("answer").innerHTML =
-      "Your random number is: " + randomNegativeNumber
+    document.getElementById('answer').innerHTML =
+      'Your random number is: ' + randomNegativeNumber
   }
 }
